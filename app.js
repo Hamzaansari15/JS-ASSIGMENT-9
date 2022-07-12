@@ -58,10 +58,11 @@
 // var userAge = (date - ageDate) / (1000 * 60 * 60 * 24 * 365);
 // document.write("<h1> your Age is " + Math.round(userAge) + "</h1>");
 // document.write("<h1> Your Birth year is: " + age + "</h1>");
-// document.write("<h1> Customer Name: ABC</h1>")
-// document.write("<h1> Month: February</h1>")
-// document.write("<h1> Number of Units: 410</h1>")
-// document.write("<h1> Charges per unit: 16</h1>")
-// document.write("<h1> Net Amount Payable(within due date): 6550</h1>")
-// document.write("<h1> late payment surcharge: 359</h1>")
-// document.write("<h1> Gross Amount Payable (after due date): 6910</h1>")
+// document.write("<h1> Customer Name: ABC</h1>");
+// document.write("<h1> Month: February</h1>");
+// document.write("<h1> Number of Units: 410</h1>");
+// document.write("<h1> Charges per unit: 16</h1>");
+// var amountPayable = 410*16
+// document.write("<h1> Net Amount Payable(within due date): " + amountPayable + "</h1>");
+// document.write("<h1> late payment surcharge: 359</h1>");
+// document.write("<h1> Gross Amount Payable (after due date): 6910</h1>");
